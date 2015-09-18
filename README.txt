@@ -32,6 +32,20 @@ Note: On the TRS-80 Color Computer and BBC Micro you need to include
 If you make a mistake and don't want to retype the entire line, most
 of the BASICs have a way to make corrections.
 
+Amstrad CPC computers:
+  Type EDIT <line number> and it will print the line on the screen and
+  put your cursor at the beginning of the line. You can also use 
+  AUTO <line number> and it will start from line 10 and increment by
+  10. Press <ESC> to end. Press arrow left/right to move the cursor, 
+  CTRL+Arrow Left/Right to go to the start and end of the screen line, 
+  CTRL+Arrow Up/Down to go to the start and end of the BASIC line (if 
+  they are more than the screen width). You can also use SHIFT+Arrow 
+  Up/Down/Left/Right to move the copy (secondary) cursor to the letter 
+  you want to copy and press the COPY key. Use CLR and DEL to delete 
+  the character under the cursor or the character to the left of the 
+  cursor, respectively. You don't need to arrow to the end of the 
+  line before pushing RETURN.
+
 Apple II computers:
   On an Apple II+ use LIST <line number> to print the line with an
   error, then use ESC followed by A/B/C/D to move the cursor one step
